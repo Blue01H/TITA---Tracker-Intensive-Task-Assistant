@@ -1,0 +1,15 @@
+.container {
+    background-color: #0F4C75;
+    width: 60%;
+    height: 40%;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+}
+
+.logo {
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-bottom: 0.6rem;
+}

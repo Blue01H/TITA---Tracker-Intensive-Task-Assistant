@@ -1,0 +1,83 @@
+.container {
+    background-color: #0F4C75;
+    width: 60%;
+    height: 40%;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.centered {
+    margin: 3rem auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    padding-top: 1rem;
+    padding-left: 2rem;
+    color: whitesmoke !important;
+}
+
+.singleDiv {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    color: whitesmoke !important;
+}
+
+.singleDiv label {
+    padding-left: 2rem;
+    padding-bottom: 0.5rem;
+    font-weight: bold;
+    color: whitesmoke !important;
+}
+
+.singleDiv input {
+    width: 30%;
+    height: 1.5rem;
+    border-radius: 5px;
+    border-color: #3282B8;
+    background-color: #3282B8;
+    margin-left: 2.5rem;
+    margin-bottom: 1rem;
+    color: whitesmoke;
+    font-size: large;
+}
+
+.singleDiv textarea {
+    width: 85%;
+    height: 5.5rem;
+    border-radius: 5px;
+    border-color:#3282B8;
+    background-color: #3282B8;
+    margin-left: 2.5rem;
+    margin-bottom: 1rem;
+    color: whitesmoke;
+    font-size: large;
+    resize: none;
+}
+
+.button {
+    margin-left: 3.5rem;
+    background-color: #3282B8;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+}
+
+.right {
+    overflow: hidden;
+}
+
+.submitButton {
+    margin-bottom: 1rem;
+    background-color: #3282B8;
+    float: right;
+    margin-right: 1.5rem;
+    margin-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    border-radius: 5px;
+}

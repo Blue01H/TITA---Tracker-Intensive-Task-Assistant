@@ -1,0 +1,133 @@
+.container {
+    background-color: #0F4C75;
+    width: 60%;
+    height: 40%;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+h1 {
+    color: whitesmoke
+}
+
+label {
+    color: whitesmoke
+}
+
+.logo {
+    padding-top: 1rem;
+    padding-left: 2rem;
+}
+
+.dataContainer {
+    display: flex;
+    flex-direction: row;
+    font-size: large;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.singleDiv {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.singleDiv label {
+    margin-bottom: 0.8rem;
+}
+
+.label {
+    margin-left: 2.1rem;
+    margin-bottom: 0.8rem;
+}
+
+.singleDiv input:disabled {
+    border-radius: 5px;
+    border-color: #3282B8;
+    background-color: #3282B8;
+    width: 78%;
+    color: whitesmoke;
+    font-size: large;
+    margin-left: 1rem;
+    height: 1.5rem;
+}
+
+.singleDiv textarea {
+    border-radius: 5px;
+    border-color: #3282B8;
+    background-color: #3282B8;
+    resize: none;
+    height: 7rem;
+    width: 73%;
+    color: whitesmoke;
+    font-size: large;
+    margin-left: 2.9rem
+}
+
+.active {
+    background-color: #4aba3f;
+    width: 80%;
+    margin-left: 1rem;
+    margin-bottom: 0.6rem;
+    border-radius: 5px;
+}
+
+.active:hover {
+    background-color:#4aba3f;
+}
+
+.inactive {
+    background-color: #ad2d2d;
+    width: 80%;
+    margin-left: 1rem;
+    margin-bottom: 0.6rem;
+    border-radius: 5px;
+}
+
+.inactive:hover {
+    background-color: #ad2d2d;
+}
+
+.buttonDiv {
+    overflow: hidden;
+}
+
+.delete {
+    float: right;
+    background-color: #ad2d2d;
+    margin-right: 1.3rem;
+    margin-bottom: 1.3rem;
+    margin-left: 0.8rem;
+    border-radius: 5px;
+}
+
+.delete:hover {
+    background-color: #e60505;
+}
+
+.modify {
+    float:right;
+    background-color: #c9bd38;
+    border-radius: 5px;
+}
+
+.modify:hover {
+    background-color: #f5e105;
+}
+
+.centered {
+    margin: 3rem auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

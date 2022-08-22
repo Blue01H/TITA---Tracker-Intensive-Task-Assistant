@@ -1,0 +1,111 @@
+.container {
+    background-color: #0F4C75;
+    width: 60%;
+    height: 40%;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+}
+
+.logo {
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-bottom: 0.6rem;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.singleDiv {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    margin-left: 3rem;
+    margin-bottom: 1rem;
+}
+
+.singleDiv label {
+    font-size: large;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.singleDiv input {
+    border-radius: 5px;
+    border-color: #3282B8;
+    background-color: #3282B8;
+    width: 78%;
+    color: whitesmoke;
+    font-size: large;
+    margin-left: 1rem;
+    height: 1.8rem;
+}
+
+.singleDiv select {
+    border-radius: 5px;
+    border-color: #3282B8;
+    background-color: #3282B8;
+    width: 78%;
+    color: whitesmoke;
+    font-size: large;
+    margin-left: 1rem;
+    height: 1.8rem;
+}
+
+.singleDiv textarea {
+    width: 85%;
+    height: 5.5rem;
+    border-radius: 5px;
+    border-color:#3282B8;
+    background-color: #3282B8;
+    margin-left: 2.5rem;
+    margin-bottom: 1rem;
+    color: whitesmoke;
+    font-size: large;
+    resize: none;
+}
+
+.buttonDiv {
+    overflow: hidden;
+}
+
+.delete {
+    float: right;
+    background-color: #ad2d2d;
+    margin-right: 1.3rem;
+    margin-bottom: 1.3rem;
+    margin-left: 0.8rem;
+    border-radius: 5px;
+}
+
+.delete:hover {
+    background-color: #e60505;
+}
+
+.modify {
+    float:right;
+    background-color: #c9bd38;
+    border-radius: 5px;
+}
+
+.modify:hover {
+    background-color: #f5e105;
+}
+
+.centered {
+    margin: 3rem auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input::placeholder {
+    color: whitesmoke
+}
+textarea::placeholder {
+    color: whitesmoke
+}

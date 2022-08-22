@@ -1,0 +1,35 @@
+.singleDiv {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+
+.singleDiv label {
+    padding-left: 2rem;
+    padding-bottom: 0.5rem;
+    color: whitesmoke;
+}
+
+.singleDiv input {
+    width: 30%;
+    height: 1.5rem;
+    border-radius: 5px;
+    border-color: #3282B8;
+    background-color: #3282B8;
+    margin-left: 2.5rem;
+    margin-bottom: 1rem;
+    color: whitesmoke;
+    font-size: large;
+}
+
+.singleDiv textarea {
+    width: 85%;
+    height: 5.5rem;
+    border-radius: 5px;
+    border-color:#3282B8;
+    background-color: #3282B8;
+    margin-left: 2.5rem;
+    margin-bottom: 1rem;
+    color: whitesmoke;
+    font-size: large;
+}

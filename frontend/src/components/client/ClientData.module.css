@@ -1,0 +1,65 @@
+.container {
+    background-color: #0F4C75;
+    width: 60%;
+    height: 40%;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.centered {
+    margin: 3rem auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: whitesmoke
+}
+
+label {
+    color: whitesmoke
+}
+
+.clientLogo {
+    padding-top: 1rem;
+    padding-left: 2rem;
+}
+
+.divContainer {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+}
+
+.dobleDiv {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.singleDiv {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+}
+
+.singleDiv label {
+    margin-bottom: 0.4rem;
+    font-weight: bold;
+}
+
+.singleDiv input:disabled {
+    width: 60%;
+    height: 1.5rem;
+    border-radius: 5px;
+    border-color: #3282B8;
+    background-color: #3282B8;
+    margin-left: 0.5rem;
+    color: whitesmoke;
+    font-size: large;
+}

@@ -1,0 +1,9 @@
+.container {
+    margin-top: 3rem;
+    margin-left: 15rem;
+}
+
+.container Button {
+    background-color: #0F4C75;
+    border-color: #0F4C75;
+}
